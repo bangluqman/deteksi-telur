@@ -43,7 +43,7 @@ def main_loop():
     largest_ellipses = []
 
     for contour in contours:
-        if len(contour) >= 5:
+        if len(contour) >= 8:
             ellipse = cv2.fitEllipse(contour)
             _, (major_axis, minor_axis), _ = ellipse
             area = np.pi * major_axis * minor_axis / 4
