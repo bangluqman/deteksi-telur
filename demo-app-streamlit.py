@@ -21,8 +21,8 @@ def enhance_details(img):
 
 
 def main_loop():
-    st.title("OpenCV Demo App")
-    st.subheader("This app allows you to play with Image filters!")
+    st.title("Deteksi Telur Cacing")
+    st.subheader("Aplikasi ini digunakan untuk mendeteksi telur cacing pada feses.")
     st.text("We use OpenCV and Streamlit for this demo")
 
 
