@@ -24,9 +24,9 @@ def enhance_details(img):
     return hdr
 
 def main_loop():
-    st.title("OpenCV Demo App")
-    st.subheader("This app allows you to play with Image filters!")
-    st.text("We use OpenCV and Streamlit for this demo")
+    st.title("Deteksi Telur Cacing")
+    st.subheader("Aplikasi ini digunakan untuk mendeteksi telur cacing pada feses")
+    st.text("Aplikasi ini menggunakan OpenCV")
 
     gambar = st.file_uploader("Upload Your Image", type=['jpg', 'png', 'jpeg'])
     if not gambar:
